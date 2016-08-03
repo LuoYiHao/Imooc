@@ -1,0 +1,135 @@
+*{
+	margin:0;
+	padding:0;
+}
+html,body{
+	font: 14px/1.5 "PingFang SC", Helvetica, "Helvetica Neue", "微软雅黑", Tahoma, Arial, sans-serif;
+    color: #14191e;
+}
+.options li{
+	list-style-type:none;
+	float:left;
+	margin:0 0 0 53px;
+	color:white;
+}
+.options{
+	float:left;
+	line-height:64px;
+}
+header{
+	height:64px;
+	background-color:black;
+}
+#imoocIcon{
+	margin:0 0 0 28px;	
+	float:left;
+}
+.icons{
+	float:right;
+	line-height:64px;
+	vertical-align:center;
+	margin:12px 36px 0 0;
+}
+.icons li{
+	list-style-type:none;
+	float:left;
+	margin:0 0 0 30px;
+}
+.icons2{
+	float:right;
+	line-height:64px;
+	vertical-align:center;
+	margin:32px 153px 0 0;
+}
+.icons2 li{
+	list-style-type:none;
+	float:left;
+	margin:0 0 0 12px;
+}
+#happyIcon{
+	margin-top:-4px;
+}
+.options2 li{
+	list-style-type:none;
+	float:left;
+	margin:0 34px 0 0px;
+	color:white;
+}
+.options2{
+	float:left;
+	margin:33px 0 14px 0;
+}
+footer{
+	height:106px;
+	background-color:black;
+}
+#mainbody{
+	min-height:500px;
+	background-color:white;
+	width:1325px;
+	margin:0 auto;
+}
+p{
+	color:white;
+}
+.bottom_left{
+	float:left;
+	margin:0 0 0 156px;
+	font-size:14px;
+}
+#recruit{
+	float:right;
+	display:block;
+	margin:-27px 0px 0 0;
+}
+h3{
+	margin:25px 0 0 0px;
+	font-weight:bold;
+}
+.mainbody_top{
+	padding:0 0 20px 0;
+	border-bottom:1px solid #ccc;
+}
+dt{
+	float:left;
+	margin:0 0 0 22px;
+	color:#8d9191;
+}
+dd{
+	float:left;
+	margin:0 0 0 33px;
+	padding:2px 5px;
+	
+}
+.direction,.classify,.diffculty{
+	float:left;
+	line-height:21px;
+	border-bottom:1px solid #ccc;
+	width:1325px;
+	font-size:14px;
+	margin:12px 0;
+	padding-bottom:16px;
+}
+.selected{
+	background-color:red;
+	color:white;
+}
+.bottom_left{
+	float:left;
+}
+.bottom_left span{
+	margin:0 47px 0 0;
+}
+.bottom_right{
+	float:right;
+}
+.bottom_top{
+	height:45px;
+	color:#999;
+}
+.text{
+	margin:0 20px 0 0;
+}
+.numberOfPages{
+	margin:0 10px 0 0;
+}
