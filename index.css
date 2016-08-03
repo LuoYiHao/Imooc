@@ -64,13 +64,10 @@ footer{
 	background-color:black;
 }
 #mainbody{
-	min-height:500px;
+	height:1000px;
 	background-color:white;
 	width:1325px;
 	margin:0 auto;
-}
-p{
-	color:white;
 }
 .bottom_left{
 	float:left;
@@ -114,22 +111,50 @@ dd{
 	background-color:red;
 	color:white;
 }
-.bottom_left{
+.leftbottom{
 	float:left;
+	margin:0 0 0 21px;
 }
-.bottom_left span{
+.leftbottom span{
 	margin:0 47px 0 0;
 }
-.bottom_right{
+.rightbottom{
 	float:right;
-}
-.bottom_top{
-	height:45px;
-	color:#999;
 }
 .text{
 	margin:0 20px 0 0;
+	vertical-align:50%;
 }
 .numberOfPages{
 	margin:0 10px 0 0;
+	vertical-align:50%;
+}
+#selection{
+	vertical-align:50%;
+}
+#right{
+	margin-right:25px;
+}
+.course{
+	float:left;
+	padding:24px 24px 24px 24px;
+	margin:19px 19px 19px 0;
+}
+.selectcourse{
+	height:235px;
+}
+p{
+	line-height:25px;
+}
+.coursename{
+	font-weight:bold;
+}
+.courseDescription{
+	color:#cdc1bf;
+}
+.learn{
+	color:#787d82;
+}
+.copyright{
+	color:#787d82;
 }
