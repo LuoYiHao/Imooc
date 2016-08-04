@@ -9,8 +9,12 @@ html,body{
 .options li{
 	list-style-type:none;
 	float:left;
-	margin:0 0 0 53px;
+	padding:0 29px;
 	color:white;
+}
+.options li:hover{
+	background-color:#363C41;
+	cursor:pointer;
 }
 .options{
 	float:left;
@@ -23,6 +27,9 @@ header{
 #imoocIcon{
 	margin:0 0 0 28px;	
 	float:left;
+}
+#imoocIcon:hover,.icons:hover,.icons2:hover{
+	cursor:pointer;
 }
 .icons{
 	float:right;
@@ -53,6 +60,10 @@ header{
 	list-style-type:none;
 	float:left;
 	margin:0 34px 0 0px;
+	color:#666;
+}
+.options2 li{
+	cursor:pointer;
 	color:white;
 }
 .options2{
@@ -78,6 +89,11 @@ footer{
 	float:right;
 	display:block;
 	margin:-27px 0px 0 0;
+	transition:margin .2s linear 0s;
+}
+#recruit:hover{
+	cursor:pointer;
+	margin-right:-12px;
 }
 h3{
 	margin:25px 0 0 0px;
@@ -96,7 +112,10 @@ dd{
 	float:left;
 	margin:0 0 0 33px;
 	padding:2px 5px;
-	
+}
+dd:hover,.text:hover{
+	color:red;
+	cursor:pointer;
 }
 .direction,.classify,.diffculty{
 	float:left;
@@ -107,7 +126,7 @@ dd{
 	margin:12px 0;
 	padding-bottom:16px;
 }
-.selected{
+.selected,.selected:hover{
 	background-color:red;
 	color:white;
 }
@@ -137,8 +156,13 @@ dd{
 }
 .course{
 	float:left;
-	padding:24px 24px 24px 24px;
-	margin:19px 19px 19px 0;
+	padding:23px;
+	margin:18px 18px 18px 0;
+}
+.course:hover{
+	cursor:pointer;
+	box-shadow:3px 3px 3px #ccc;
+	border:1px solid #ccc;
 }
 .selectcourse{
 	height:235px;
