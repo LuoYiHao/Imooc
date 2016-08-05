@@ -212,3 +212,12 @@ p{
 .space{
 	height:330px;
 }
+aside{
+	position:fixed;
+	top:406px;
+	right:0;
+}
+aside ul li{
+	list-style-type:none;
+	cursor:pointer;
+}
